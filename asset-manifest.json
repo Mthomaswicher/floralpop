@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/floralpop/static/css/main.2c46ccd4.css",
+    "main.js": "/floralpop/static/js/main.332e0a61.js",
+    "static/media/flowers.png": "/floralpop/static/media/flowers.7fa5bb5f7c7e8029a3bd.png",
+    "static/media/cart.png": "/floralpop/static/media/cart.20f71088731bfb0e8f43.png",
+    "static/media/floralpattern.png": "/floralpop/static/media/floralpattern.ab867a974e73d2fc8d18.png",
+    "static/media/flowerwall.jpg": "/floralpop/static/media/flowerwall.73aa760a0c6ae6561740.jpg",
+    "static/media/jerod.jpg": "/floralpop/static/media/jerod.a4c3b1418b4ceef9bedc.jpg",
+    "static/media/aerie.png": "/floralpop/static/media/aerie.0a8e2715d88c9da5658b.png",
+    "static/media/floralpoplogo.png": "/floralpop/static/media/floralpoplogo.038c06d3d6b80473e9fc.png",
+    "static/media/f45.png": "/floralpop/static/media/f45.7ac794b4df637b110d05.png",
+    "static/media/lulu.png": "/floralpop/static/media/lulu.82d9d5178e96796ab4c8.png",
+    "index.html": "/floralpop/index.html",
+    "main.2c46ccd4.css.map": "/floralpop/static/css/main.2c46ccd4.css.map",
+    "main.332e0a61.js.map": "/floralpop/static/js/main.332e0a61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c46ccd4.css",
+    "static/js/main.332e0a61.js"
+  ]
+}
