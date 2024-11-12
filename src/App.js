@@ -1,25 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import { Container, Row, Col } from 'react-bootstrap';
+import Navigation from './components/Navigation';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Hero from './components/Hero';
+import Companies from './components/Companies';
+import Services from './components/Services';
+import Feed from './components/Feed';
+import PageFooter from './components/PageFooter';
 
-function App() {
+
+function App ()  {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <><Navigation></Navigation>
+    
+    <Container>
+      <Hero/>
+
+    </Container>
+    <Companies/>
+    <Container>
+      <Services/>
+      <Feed/>
+    </Container>
+    <PageFooter/>
+
+    
+    
+    
+    </>
+ );
 }
 
 export default App;

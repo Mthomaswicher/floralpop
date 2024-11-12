@@ -1,38 +1,287 @@
-.App {
+/*Global*/
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body{
+  background: linear-gradient(90deg, rgba(249, 178, 72, 0.20) 0%, rgba(255, 160, 220, 0.20) 100%);
+}
+
+/* .container{
+  margin-left: 64px!important;
+  margin-right: 64px!important;
+} */
+
+.col-lg-8 {
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+.centerText{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rowPushDownSm{
+  margin-bottom: 64px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.rowPushDownLg{
+  margin-bottom: 128px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+  font-family: "Poppins", serif;
+  padding-left: 0px!important;
 }
 
-.App-link {
-  color: #61dafb;
+p{
+  padding-left: 0px!important;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #5F6870;
+}
+/*Top Navigation*/
+
+.bg-body-tertiary {
+  padding-left: 64px !important; 
+  padding-right: 64px!important; 
+  --bs-bg-opacity: 0%!important;
+  margin-bottom: 40px;
+  box-shadow: 0px 1px 6px 2px rgba(37,39,91, 0.10);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-expand-sm .navbar-nav{
+margin-left: auto;
 }
+
+.navbar-nav{
+  gap: 16px;
+}
+
+.nav-link{
+  font-family: "Poppins", serif;
+  font-weight: 300;
+}
+
+
+/*Buttons*/
+
+.btn-primary{
+  background-color: #A591EF!important;
+  border: none!important;
+  font-family:'Poppins'!important;
+  font-weight: 500!important;
+  width: auto!important;
+  padding: 16px!important;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.08)!important;
+}
+
+
+/*Hero Container*/
+
+.overlay{
+  background-color: black;
+  opacity: 50%;
+}
+
+.imageFill{
+  width: -webkit-fill-available;
+}
+
+
+.heroRow{
+  margin-bottom: 128px;
+}
+
+.heroHeader{
+  font-size: 104px;
+}
+
+
+/*Ticker*/
+
+
+.companyImage{
+  width: 150px;
+  height: auto;
+  margin-left: 64px;
+  margin-right: 64px;
+  
+}
+
+.companyHeader{
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.ticker{
+  margin-bottom: 128px;
+}
+
+
+/*Services*/
+
+.servicesHeader{
+  text-align: center;
+}
+
+.card{
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.08)!important;
+border: none!important;
+}
+
+.card-body{
+  border-radius: 12px;
+}
+
+.card-title, .card-text{
+  text-align: center!important;
+}
+
+.serviceHero{
+  background-image: url(./assets/jerod.jpg);
+}
+
+.jerodimage{
+  background-image: url("./assets/jerod.jpg");
+    width: 100%;
+    margin-bottom: 24px;
+    aspect-ratio: 8 / 3;
+    border-radius: 6px;
+    background-position: center 32.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.08)!important;
+
+}
+
+
+/*Instagram Feed*/
+
+.eapps-instagram-feed-header{
+  border-radius: 6px;
+}
+
+
+
+/*Footer*/
+
+.footer{
+  padding: 64px;
+  background-color: #FDE0B6;
+}
+
+
+
+
+
+
+
+
+
