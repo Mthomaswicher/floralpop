@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/floralpop/static/css/main.2c46ccd4.css",
-    "main.js": "/floralpop/static/js/main.332e0a61.js",
+    "main.css": "/floralpop/static/css/main.3a9a7850.css",
+    "main.js": "/floralpop/static/js/main.43ab745c.js",
     "static/media/flowers.png": "/floralpop/static/media/flowers.7fa5bb5f7c7e8029a3bd.png",
     "static/media/cart.png": "/floralpop/static/media/cart.20f71088731bfb0e8f43.png",
     "static/media/floralpattern.png": "/floralpop/static/media/floralpattern.ab867a974e73d2fc8d18.png",
     "static/media/flowerwall.jpg": "/floralpop/static/media/flowerwall.73aa760a0c6ae6561740.jpg",
     "static/media/jerod.jpg": "/floralpop/static/media/jerod.a4c3b1418b4ceef9bedc.jpg",
+    "static/media/lulu.png": "/floralpop/static/media/lulu.571d44f938a7dc619b42.png",
+    "static/media/kendra.png": "/floralpop/static/media/kendra.03c4d6fe3a7fcfbfdcb2.png",
+    "static/media/ig.png": "/floralpop/static/media/ig.e719d8b29f452a16302d.png",
+    "static/media/nike.png": "/floralpop/static/media/nike.87eb87afb7f10a079ffe.png",
+    "static/media/f45.png": "/floralpop/static/media/f45.c43e9a8f2e95bdbda051.png",
     "static/media/aerie.png": "/floralpop/static/media/aerie.0a8e2715d88c9da5658b.png",
+    "static/media/kors.png": "/floralpop/static/media/kors.7e006a8f6c482359230e.png",
     "static/media/floralpoplogo.png": "/floralpop/static/media/floralpoplogo.038c06d3d6b80473e9fc.png",
-    "static/media/f45.png": "/floralpop/static/media/f45.7ac794b4df637b110d05.png",
-    "static/media/lulu.png": "/floralpop/static/media/lulu.82d9d5178e96796ab4c8.png",
     "index.html": "/floralpop/index.html",
-    "main.2c46ccd4.css.map": "/floralpop/static/css/main.2c46ccd4.css.map",
-    "main.332e0a61.js.map": "/floralpop/static/js/main.332e0a61.js.map"
+    "main.3a9a7850.css.map": "/floralpop/static/css/main.3a9a7850.css.map",
+    "main.43ab745c.js.map": "/floralpop/static/js/main.43ab745c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c46ccd4.css",
-    "static/js/main.332e0a61.js"
+    "static/css/main.3a9a7850.css",
+    "static/js/main.43ab745c.js"
   ]
 }
