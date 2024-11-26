@@ -5,6 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Navbar, Button } from 'react-bootstrap';
 import logo from '../assets/floralpoplogo.png';
 import { useState } from 'react';
+import ig from "../assets/ig.png";
 
 const Navigation = () => {
   const navbarItems = [
@@ -39,7 +40,11 @@ const Navigation = () => {
           {navbarItems.map((link) => {
             return <Nav.Link href={link.addy}>{link.link}</Nav.Link>;
           })}
-          <Button>Book now</Button>
+          <Button target="_blank" href="https://www.honeybook.com/widget/floral_pop_co_203712/cf_id/61783908e47c1c07fd82b023">Book now</Button>
+          <div className="vr" />
+          <a href="https://www.instagram.com/floralpopco/" target='_blank'>
+          <img className="social" src={ig}/>
+          </a>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

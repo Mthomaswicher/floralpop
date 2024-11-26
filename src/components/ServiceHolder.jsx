@@ -1,4 +1,4 @@
-import { Row, Card, Col } from 'react-bootstrap';
+import { Row, Card, Col, Button } from 'react-bootstrap';
 import cart from '../assets/cart.png';
 import jerod from '../assets/jerod.jpg';
 import flowerwall from '../assets/flowerwall.jpg';
@@ -23,6 +23,7 @@ const ServiceHolder = () => {
               lead-in to additional content. This content is a little bit
               longer.
             </Card.Text>
+            <Button className="fullwidth">View Now</Button>
           </Card.Body>
         </Card>
       </Col>
@@ -36,6 +37,7 @@ const ServiceHolder = () => {
               lead-in to additional content. This content is a little bit
               longer.
             </Card.Text>
+            <Button className="fullwidth">View now</Button>
           </Card.Body>
         </Card>
       </Col>
@@ -49,6 +51,7 @@ const ServiceHolder = () => {
               lead-in to additional content. This content is a little bit
               longer.
             </Card.Text>
+            <Button className="fullwidth">View now</Button>
           </Card.Body>
         </Card>
       </Col>

@@ -109,7 +109,13 @@
 }
 
 body{
-  background: linear-gradient(90deg, rgba(249, 178, 72, 0.20) 0%, rgba(255, 160, 220, 0.20) 100%);
+  background: linear-gradient(90deg, rgba(249, 178, 72, 0.350) 0%, rgba(255, 160, 220, 0.35) 100%);
+}
+
+.header{
+  margin-bottom: 64px;
+  text-align: center;
+  width: fit-content!important;
 }
 
 /* .container{
@@ -127,11 +133,16 @@ body{
 }
 
 .rowPushDownSm{
-  margin-bottom: 64px;
+  margin-bottom: 64px!important;
 }
 
 .rowPushDownLg{
-  margin-bottom: 128px;
+  margin-bottom: 200px;
+}
+
+.justify{
+  justify-content: center!important;
+
 }
 
 h1{
@@ -146,6 +157,20 @@ p{
   line-height: 30px;
   color: #5F6870;
 }
+
+.partyPatternLeft{
+  width: 200px!important;
+}
+
+.partyPatternRight{
+  width: 200px!important;
+}
+
+h3{
+  padding-left: 0px!important;
+}
+
+
 /*Top Navigation*/
 
 .bg-body-tertiary {
@@ -162,11 +187,18 @@ margin-left: auto;
 
 .navbar-nav{
   gap: 16px;
+  align-items: center;
 }
 
 .nav-link{
   font-family: "Poppins", serif;
   font-weight: 300;
+  color: black;
+}
+
+.social{
+  width: 24px;
+  height: 24px;
 }
 
 
@@ -180,6 +212,10 @@ margin-left: auto;
   width: auto!important;
   padding: 16px!important;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.08)!important;
+}
+
+.fullwidth{
+  width: 100%!important;
 }
 
 
@@ -208,21 +244,17 @@ margin-left: auto;
 
 
 .companyImage{
-  width: 150px;
-  height: auto;
+  width: auto;
+  height: 100px;
   margin-left: 64px;
   margin-right: 64px;
   
 }
 
-.companyHeader{
-  margin-bottom: 64px;
-  text-align: center;
+.ticker{
+  align-items: center!important;
 }
 
-.ticker{
-  margin-bottom: 128px;
-}
 
 
 /*Services*/
@@ -276,6 +308,38 @@ border: none!important;
   padding: 64px;
   background-color: #FDE0B6;
 }
+
+.email{
+  font-size: 24px;
+  font-family: "Poppins",sans-serif;
+}
+
+.centerfooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+
+.textmarker-effect {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.textmarker-effect:before {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  background: #A591EF;
+  height: 16px;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  opacity: 0.7;
+}
+
 
 
 

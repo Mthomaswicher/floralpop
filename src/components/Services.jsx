@@ -3,6 +3,8 @@ import cart from "../assets/cart.png";
 import ServiceHolder from "./ServiceHolder";
 import * as animationData from '../assets/flowerfalling.json';
 import Lottie from 'react-lottie';
+import ServiceHolder2 from "./ServiceHolder2";
+import abstract from "../assets/abstract.png";
 
 
 const Services = () => {
@@ -18,10 +20,10 @@ const Services = () => {
 
 
     return (
-        <><Row className="rowPushDown">
-            <h1 className="servicesHeader">A few of the services we offer</h1>
-            <p className="centerText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <><Row className="rowPushDown justify">
+          
+          <h1 className="textmarker-effect header">What we offer</h1> 
+       
         </Row>
         <Row className="rowPushDownLg">
 
