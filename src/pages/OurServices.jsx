@@ -9,9 +9,7 @@ import PageFooter from '../components/PageFooter';
 function OurServices() {
   return (
     <>
-      <Navigation></Navigation>
-        <ServiceHolder />
-      <PageFooter />
+      <ServiceHolder />
     </>
   );
 }

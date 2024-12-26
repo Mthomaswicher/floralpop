@@ -11,7 +11,6 @@ import PageFooter from '../components/PageFooter';
 function Home() {
   return (
     <>
-      <Navigation></Navigation>
       <Container>
         <Hero />
       </Container>
@@ -20,7 +19,6 @@ function Home() {
         <Services />
         <Feed />
       </Container>
-      <PageFooter />
     </>
   );
 }

@@ -8,7 +8,6 @@ import PageFooter from '../components/PageFooter';
 function AboutUs() {
   return (
     <>
-      <Navigation></Navigation>
       <Row className="heroRow">
         <Col lg={2}></Col>
         <Col lg={5}>
@@ -33,7 +32,6 @@ function AboutUs() {
           </Row>
         </Col>
       </Row>
-      <PageFooter />
     </>
   );
 }
