@@ -1,6 +1,4 @@
 import { Row, Col, Button } from 'react-bootstrap';
-import floral from '../assets/flowers.png';
-import flowers from '../assets/floralpattern.png';
 import Lottie from 'react-lottie';
 import * as animationData from '../assets/flowerfalling.json';
 import cart from '../assets/cart.png';
@@ -34,15 +32,14 @@ const Hero = () => {
         </Row>
         <Row>
           <Button
-            target="_blank"
-            href="https://www.honeybook.com/widget/floral_pop_co_203712/cf_id/61783908e47c1c07fd82b023">
+            href="/book-now">
             Book Now
           </Button>
         </Row>
       </Col>
 
       <Col className="floralcol" lg={5}>
-        <Lottie options={defaultOptions} />
+        <Lottie options={defaultOptions} isClickToPauseDisabled={true} />
       </Col>
     </Row>
   );
