@@ -14,10 +14,13 @@ const Hero = () => {
 
   return (
     <Row className="heroRow">
-      <Col lg={7}>
+      <Col>
+        <Row xs={1}>
+          <p className="h1">Floral Pop Party Shop</p>
+        </Row>
+
         <Row>
-          <h1 className="heroHeader">Floral Pop Party Shop</h1>
-          <h3>Where the parties pop and the fun never stops</h3>
+          <p className="h3">Where the parties pop and the fun never stops</p>
         </Row>
         <Row>
           <p>
@@ -34,7 +37,7 @@ const Hero = () => {
         </Row>
       </Col>
 
-      <Col className="floralcol" lg={5}>
+      <Col className="d-none d-md-block d-lg-block">
         <Lottie options={defaultOptions} isClickToPauseDisabled={true} />
       </Col>
     </Row>

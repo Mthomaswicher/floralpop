@@ -41,7 +41,7 @@ const ServiceHolder = () => {
       <Col lg={12}>
         <div className="jerodimage"></div>
       </Col>
-      <Row className="align-items-center">
+      <Row className="align-items-center" xs={1} md={3}>
       {cardData.map(card => {
         return (
           <Col>

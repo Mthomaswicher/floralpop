@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <>
       <Row className="rowPushDown justify">
-        <h1 className="textmarker-effect header">What we offer</h1>
+        <p className="h1 textmarker-effect header">What we offer</p>
       </Row>
       <Row className="rowPushDownLg">
         <ServiceHolder />

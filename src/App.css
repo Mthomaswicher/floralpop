@@ -122,11 +122,6 @@ body {
   width: fit-content !important;
 }
 
-/* .container{
-  margin-left: 64px!important;
-  margin-right: 64px!important;
-} */
-
 .col-lg-8 {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -328,4 +323,10 @@ h3 {
   bottom: 0px;
   width: 100%;
   opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .heroRow {
+    padding: 0 24px 48px 24px;
+  }
 }
