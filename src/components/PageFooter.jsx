@@ -2,22 +2,7 @@ import floralpop from '../assets/floralpoplogo.png';
 import { Row, Col, Nav } from 'react-bootstrap';
 import ig from '../assets/ig.png';
 
-const PageFooter = () => {
-  const navbarItems = [
-    {
-      link: 'About Us',
-      addy: '#Aboutus',
-    },
-    {
-      link: 'Our Services',
-      addy: '#OurServices',
-    },
-    {
-      link: 'Contact Us',
-      addy: '#Contact',
-    },
-  ];
-
+const PageFooter = ({ navItems }) => {
   return (
     <Row className="footer">
       <Col lg={2}>
@@ -25,9 +10,13 @@ const PageFooter = () => {
       </Col>
       <Col lg={2}>
         <Row className="rowPushDown">
-          <Nav defaultActiveKey="/home" className="flex-column">
-            {navbarItems.map((nav) => {
-              return <Nav.Link href={nav.addy}>{nav.link}</Nav.Link>;
+          <Nav defaultActiveKey="/" className="flex-column">
+            {navItems.map((nav, idx) => {
+              return (
+                <Nav.Link href={nav.path} key={idx}>
+                  {nav.label}
+                </Nav.Link>
+              );
             })}
           </Nav>
         </Row>

@@ -104,13 +104,13 @@ const Feed = () => {
                   viewBox="0 0 60 60"
                   version="1.1"
                   xmlns="https://www.w3.org/2000/svg"
-                  xmlns:xlink="https://www.w3.org/1999/xlink"
+                  xmlnsXlink="https://www.w3.org/1999/xlink"
                 >
                   <g
                     stroke="none"
-                    stroke-width="1"
+                    strokeWidth="1"
                     fill="none"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                   >
                     <g
                       transform="translate(-511.000000, -20.000000)"

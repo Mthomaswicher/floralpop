@@ -2,16 +2,31 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router';
 import Home from './pages/Home';
-import AboutUs from './pages/AboutUs'
+import AboutUs from './pages/AboutUs';
 import BookNow from './pages/BookNow';
 import OurServices from './pages/OurServices';
 import Navigation from './components/Navigation';
 import PageFooter from './components/PageFooter';
 
+const navItems = [
+  {
+    label: 'About Us',
+    path: '/about-us',
+  },
+  {
+    label: 'Our Services',
+    path: '/services',
+  },
+  {
+    label: 'Contact Us',
+    path: '/contact',
+  },
+];
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <Navigation />
+    <Navigation navItems={navItems} />
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,7 +35,7 @@ root.render(
         <Route path="/services" element={<OurServices />} />
       </Routes>
     </BrowserRouter>
-    <PageFooter />
+    <PageFooter navItems={navItems} />
   </>
 );
 

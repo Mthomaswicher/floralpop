@@ -4,22 +4,7 @@ import { Navbar, Button } from 'react-bootstrap';
 import logo from '../assets/floralpoplogo.png';
 import ig from '../assets/ig.png';
 
-const Navigation = () => {
-  const navbarItems = [
-    {
-      link: 'About Us',
-      path: '/about-us',
-    },
-    {
-      link: 'Our Services',
-      path: '/services',
-    },
-    {
-      link: 'Contact Us',
-      path: '/contact',
-    },
-  ];
-
+const Navigation = ({ navItems }) => {
   return (
     <Navbar bg="#FFFFFF" expand="sm" className="bg-body-tertiary">
       <NavbarBrand href="#home">
@@ -36,12 +21,20 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          {navbarItems.map((link) => {
-            return <Nav.Link href={link.path}>{link.link}</Nav.Link>;
+          {navItems.map((nav, idx) => {
+            return (
+              <Nav.Link href={nav.path} key={idx}>
+                {nav.label}
+              </Nav.Link>
+            );
           })}
           <Button href="/book-now">Book now</Button>
           <div className="vr" />
-          <a href="https://www.instagram.com/floralpopco/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/floralpopco/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img className="social" src={ig} alt="instagram" />
           </a>
         </Nav>
