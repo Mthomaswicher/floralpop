@@ -1,7 +1,6 @@
 import { Row, Col, Button } from 'react-bootstrap';
 import Lottie from 'react-lottie';
 import * as animationData from '../assets/flowerfalling.json';
-import cart from '../assets/cart.png';
 
 const Hero = () => {
   const defaultOptions = {
@@ -31,10 +30,7 @@ const Hero = () => {
           </p>
         </Row>
         <Row>
-          <Button
-            href="/book-now">
-            Book Now
-          </Button>
+          <Button href="/book-now">Book Now</Button>
         </Row>
       </Col>
 

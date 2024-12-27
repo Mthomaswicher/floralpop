@@ -8,15 +8,15 @@ const Navigation = () => {
   const navbarItems = [
     {
       link: 'About Us',
-      route: '/about-us',
+      path: '/about-us',
     },
     {
       link: 'Our Services',
-      route: '/services',
+      path: '/services',
     },
     {
       link: 'Contact Us',
-      route: '/contact',
+      path: '/contact',
     },
   ];
 
@@ -37,14 +37,12 @@ const Navigation = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
           {navbarItems.map((link) => {
-            return <Nav.Link href={link.route}>{link.link}</Nav.Link>;
+            return <Nav.Link href={link.path}>{link.link}</Nav.Link>;
           })}
-          <Button href="/book-now">
-            Book now
-          </Button>
+          <Button href="/book-now">Book now</Button>
           <div className="vr" />
-          <a href="https://www.instagram.com/floralpopco/" target="_blank">
-            <img className="social" src={ig} />
+          <a href="https://www.instagram.com/floralpopco/" target="_blank" rel="noreferrer">
+            <img className="social" src={ig} alt="instagram" />
           </a>
         </Nav>
       </Navbar.Collapse>
