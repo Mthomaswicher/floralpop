@@ -9,8 +9,10 @@ import { Row } from 'react-bootstrap';
 
 const Companies = () => {
   return (
-    <Row className="rowPushDownLg justify">
-      <p className="h1 textmarker-effect header">We've partied with the best</p>
+    <Row className="companies-row justify">
+      <p className="header-margin h2 textmarker-effect header">
+        We've partied with the best
+      </p>
       <HorizontalTicker className="ticker" duration={30000}>
         <img className="companyImage" src={f45} alt="f45" />
         <img className="companyImage" src={aerie} alt="aerie" />

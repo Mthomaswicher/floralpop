@@ -15,16 +15,7 @@ const ServiceHolder = () => {
       title: 'Balloons',
       price: 'Starting at $75',
       description: '',
-      services: [
-        'Helium Balloons',
-        'Balloon Garlands',
-        'Balloon Arch',
-        'Balloon Towers',
-        'Balloon Marquee',
-        'Jumbo Helium Balloons',
-        'Free-Standing Balloons',
-        '& More',
-      ],
+      services: ['Helium Balloons', 'Balloon Garlands & Arches', '& More'],
       image: { flowerwall },
     },
     {
@@ -42,29 +33,39 @@ const ServiceHolder = () => {
 
   return (
     <>
-      <Col lg={12}>
+      <Col lg={12} className="service-image-row">
         <div className="jerodimage"></div>
       </Col>
-      <Row className="align-items-center" xs={1} md={3}>
+      <Row className="service-cards align-items-center">
+        <Col></Col>
         {cardData.map((card, idx) => {
           return (
-            <Col key={idx}>
-              <Card>
-                <Card.Img variant="top" src={flowerwall} />
+            <Col key={idx} md={3}>
+              <Card className="card">
+                <Card.Img
+                  className="card-image rounded-circle ratio ratio-1x1 overflow-hidden align-self-center"
+                  variant="top"
+                  src={flowerwall}
+                />
                 <Card.Body>
-                  <Card.Title>{card.title}</Card.Title>
-                  <Card.Subtitle>{card.price}</Card.Subtitle>
-                  <ul>
+                  <Card.Title className="service-card-title">
+                    {card.title}
+                  </Card.Title>
+                  <Card.Subtitle className="service-card-subtitle align-self-center">
+                    {card.price}
+                  </Card.Subtitle>
+                  <ul className="service-card-list">
                     {card.services.map((service, serviceIdx) => (
                       <li key={serviceIdx}>{service}</li>
                     ))}
                   </ul>
-                  <Button className="fullwidth">View Now</Button>
+                  <Button className="fullwidth">View More</Button>
                 </Card.Body>
               </Card>
             </Col>
           );
         })}
+        <Col></Col>
       </Row>
     </>
   );
