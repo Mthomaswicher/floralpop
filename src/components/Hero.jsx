@@ -1,9 +1,6 @@
 import { Row, Col, Button } from 'react-bootstrap';
-import floral from '../assets/flowers.png';
-import flowers from '../assets/floralpattern.png';
 import Lottie from 'react-lottie';
 import * as animationData from '../assets/flowerfalling.json';
-import cart from '../assets/cart.png';
 
 const Hero = () => {
   const defaultOptions = {
@@ -17,10 +14,13 @@ const Hero = () => {
 
   return (
     <Row className="heroRow">
-      <Col lg={7}>
+      <Col>
+        <Row xs={1}>
+          <p className="h1">Floral Pop Party Shop</p>
+        </Row>
+
         <Row>
-          <h1 className="heroHeader">Floral Pop Party Shop</h1>
-          <h3>Where the parties pop and the fun never stops</h3>
+          <p className="h3">Where the parties pop and the fun never stops</p>
         </Row>
         <Row>
           <p>
@@ -33,16 +33,12 @@ const Hero = () => {
           </p>
         </Row>
         <Row>
-          <Button
-            target="_blank"
-            href="https://www.honeybook.com/widget/floral_pop_co_203712/cf_id/61783908e47c1c07fd82b023">
-            Book Now
-          </Button>
+          <Button href="/book-now">Book Now</Button>
         </Row>
       </Col>
 
-      <Col className="floralcol" lg={5}>
-        <Lottie options={defaultOptions} />
+      <Col className="d-none d-md-block d-lg-block">
+        <Lottie options={defaultOptions} isClickToPauseDisabled={true} />
       </Col>
     </Row>
   );
