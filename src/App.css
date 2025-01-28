@@ -108,12 +108,20 @@
   font-style: italic;
 }
 
+h1{
+  font-size: 40px;
+}
+
 body {
   background: linear-gradient(
     90deg,
     rgba(249, 178, 72, 0.35) 0%,
     rgba(255, 160, 220, 0.35) 100%
   );
+}
+
+.bottomContainer{
+  margin-bottom: 120px;
 }
 
 .header {
@@ -230,7 +238,8 @@ h3 {
 }
 
 .heroHeader {
-  font-size: 104px;
+  font-size: 72px;
+  line-height: 88px;
 }
 
 /*Ticker*/
@@ -329,4 +338,12 @@ h3 {
   .heroRow {
     padding: 0 24px 48px 24px;
   }
+}
+
+/*About Us*/
+
+.aboutUs {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }

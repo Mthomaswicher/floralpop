@@ -16,11 +16,11 @@ const Hero = () => {
     <Row className="heroRow">
       <Col>
         <Row xs={1}>
-          <p className="h1">Floral Pop Party Shop</p>
+          <p className="heroHeader">Floral Pop Party Shop</p>
         </Row>
 
         <Row>
-          <p className="h3">Where the parties pop and the fun never stops</p>
+          <p className="subtext">Where the parties pop and the fun never stops</p>
         </Row>
         <Row>
           <p>
