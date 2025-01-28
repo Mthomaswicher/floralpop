@@ -1,5 +1,5 @@
 import '../App.css';
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Hero from '../components/Hero';
 import Companies from '../components/Companies';
@@ -9,11 +9,19 @@ import Feed from '../components/Feed';
 function Home() {
   return (
     <>
-      <Container>
-        <Hero />
-      <Companies />
-        <Services />
-        <Feed />
+      <Container fluid className="root-container">
+        <Row>
+          <Hero />
+        </Row>
+        <Row>
+          <Companies />
+        </Row>
+        <Row>
+          <Services />
+        </Row>
+        <Row>
+          <Feed />
+        </Row>
       </Container>
     </>
   );

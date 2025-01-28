@@ -142,22 +142,25 @@ body {
 .rowPushDownSm {
   margin-bottom: 64px !important;
 }
-
-.rowPushDownLg {
-  margin-bottom: 200px;
+.companies-row {
+  margin-top: 40px !important;
+  margin-bottom: 200px !important;
+}
+.header-margin {
+  margin-bottom: 40px !important;
 }
 
 .justify {
   justify-content: center !important;
 }
 
-h1 {
+.h1 {
   font-family: 'Poppins', serif;
-  padding-left: 0px !important;
+  font-size: 80px !important;
+  margin-bottom: 8px !important;
 }
 
 p {
-  padding-left: 0px !important;
   font-family: 'Poppins', serif;
   font-size: 16px;
   line-height: 30px;
@@ -172,8 +175,15 @@ p {
   width: 200px !important;
 }
 
-h3 {
-  padding-left: 0px !important;
+.h3 {
+  font-weight: 300 !important;
+  font-family: 'Poppins', serif !important;
+  font-size: 24px !important;
+}
+
+.h2 {
+  font-family: 'Poppins', serif !important;
+  font-size: 40px !important;
 }
 
 /*Top Navigation*/
@@ -292,8 +302,7 @@ h3 {
 
 .jerodimage {
   background-image: url('./assets/jerod.jpg');
-  width: 100%;
-  margin-bottom: 24px;
+  min-width: 100%;
   aspect-ratio: 8 / 3;
   border-radius: 6px;
   background-position: center 32.5%;
@@ -312,7 +321,11 @@ h3 {
 
 .footer {
   padding: 64px;
-  background-color: #fde0b6;
+  background-color: #a591ef;
+
+  a {
+    color: #eee;
+  }
 }
 
 .email {
@@ -351,6 +364,78 @@ h3 {
   }
 }
 
+.root-container {
+  padding: 0 64px !important;
+}
+
+.hero-subheader {
+  margin-bottom: 40px !important;
+}
+.hero-text {
+  margin-bottom: 16px !important;
+  font-size: 24px;
+  font-weight: 300;
+}
+.hero-btn {
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.mb-3 {
+  margin-bottom: 40px !important;
+}
+
+.service-cards {
+}
+.service-image-row {
+  margin-bottom: 96px !important;
+}
+.card {
+  min-height: 300px;
+  margin: 0 20px 0 20px !important;
+}
+.card-image {
+  object-fit: cover;
+  height: 160px;
+  width: 160px;
+  max-width: 160px;
+  margin-top: -64px;
+}
+
+.service-card-title {
+  font-weight: 500 !important;
+  font-family: 'Poppins', serif !important;
+  font-size: 32px !important;
+  margin-top: 16px !important;
+}
+
+.service-card-subtitle {
+  color: #ffa0dc !important;
+  font-weight: 500 !important;
+  font-family: 'Poppins', serif !important;
+  font-size: 24px !important;
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+  text-align: center;
+}
+
+.service-card-list {
+  font-family: 'Poppins', serif !important;
+  font-size: 16px !important;
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 75px;
+}
+
+.feed-row {
+  margin-top: 200px !important;
+}
+
+.instagram-media {
+  margin-top: 40px !important;
 /*About Us*/
 
 .aboutUs {

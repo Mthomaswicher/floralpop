@@ -4,8 +4,10 @@ import ServiceHolder from './ServiceHolder';
 const Services = () => {
   return (
     <>
-      <Row className="rowPushDown justify">
-        <p className="h1 textmarker-effect header">What we offer</p>
+      <Row className="justify">
+        <p className="h2 textmarker-effect header header-margin">
+          What we offer
+        </p>
       </Row>
       <Row className="rowPushDownLg">
         <ServiceHolder />
