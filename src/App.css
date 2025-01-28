@@ -465,3 +465,9 @@ p {
   top: 50%;
   transform: translateY(-50%);
 }
+
+@media screen and (min-width: 765px) {
+.card{
+  margin-bottom: 128px!important;
+}
+}
