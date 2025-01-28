@@ -27,7 +27,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <Navigation navItems={navItems} />
-    <BrowserRouter basename='"https://mthomaswicher.github.io/floralpop'>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />

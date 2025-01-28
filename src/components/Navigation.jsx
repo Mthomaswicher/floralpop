@@ -3,6 +3,7 @@ import NavbarBrand from 'react-bootstrap/Navbar';
 import { Navbar, Button } from 'react-bootstrap';
 import logo from '../assets/floralpoplogo.png';
 import ig from '../assets/ig.png';
+import 'animate.css';
 
 const Navigation = ({ navItems }) => {
   return (
@@ -14,7 +15,7 @@ const Navigation = ({ navItems }) => {
             src={logo}
             width="64"
             height="64"
-            className="d-inline-block align-top"
+            className="d-inline-block align-top navLogo"
           />
         </Nav.Link>
       </NavbarBrand>
@@ -31,6 +32,7 @@ const Navigation = ({ navItems }) => {
           <Button href="/book-now">Book now</Button>
           <div className="vr" />
           <a
+          className="navLink"
             href="https://www.instagram.com/floralpopco/"
             target="_blank"
             rel="noreferrer"
