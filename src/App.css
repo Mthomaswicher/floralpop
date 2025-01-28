@@ -108,6 +108,10 @@
   font-style: italic;
 }
 
+h1{
+  font-size: 40px;
+}
+
 body {
   background: linear-gradient(
     90deg,
@@ -116,8 +120,12 @@ body {
   );
 }
 
+.bottomContainer{
+  margin-bottom: 120px;
+}
+
 .header {
-  margin-bottom: 64px;
+  margin-bottom: 64px!important;
   text-align: center;
   width: fit-content !important;
 }
@@ -240,7 +248,19 @@ p {
 }
 
 .heroHeader {
-  font-size: 104px;
+  font-size: 72px;
+  line-height: 88px;
+}
+
+.subtext{
+  font-size: 24px;
+  color:#4E5963;
+}
+
+.subtextParagraph{
+  font-size: 20px;
+  color: #000000;
+  font-weight: 300;
 }
 
 /*Ticker*/
@@ -416,4 +436,10 @@ p {
 
 .instagram-media {
   margin-top: 40px !important;
+/*About Us*/
+
+.aboutUs {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
