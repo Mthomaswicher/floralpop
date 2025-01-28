@@ -9,7 +9,7 @@ const Services = () => {
           What we offer
         </p>
       </Row>
-      <Row className="rowPushDownLg">
+      <Row>
         <ServiceHolder />
       </Row>
     </>

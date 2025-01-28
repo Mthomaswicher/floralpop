@@ -19,7 +19,7 @@ const ServiceHolder = () => {
       image: { flowerwall },
     },
     {
-      title: 'Flower Delivery',
+      title: 'Delivery',
       price: 'Starting at $75',
       description: '',
       services: [
@@ -37,10 +37,9 @@ const ServiceHolder = () => {
         <div className="jerodimage"></div>
       </Col>
       <Row className="service-cards align-items-center">
-        <Col></Col>
         {cardData.map((card, idx) => {
           return (
-            <Col key={idx} md={3}>
+            <Col key={idx} md={4} sm={12}>
               <Card className="card">
                 <Card.Img
                   className="card-image rounded-circle ratio ratio-1x1 overflow-hidden align-self-center"

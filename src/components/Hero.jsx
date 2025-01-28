@@ -14,21 +14,21 @@ const Hero = () => {
 
   return (
     <Container fluid>
-      <Row>
+      <Row className='rowPushDownLg'>
         <Col md={6} className="">
-          <Row className="heroRow">
+          <Row>
             <Col md={8}>
-              <p className="h1 heroHeader">Floral Pop Party Shop</p>
+              <h1 className="heroHeader">Floral Pop Party Shop</h1>
             </Col>
           </Row>
           <Row>
-            <p className="h3 hero-subheader subtext">
+            <p className="h3 subtext textDown">
               Where the parties pop and the fun never stops
             </p>
           </Row>
           <Row>
             <Col md={10}>
-              <p className="hero-text subtextParagraph">
+              <p className="subtextParagraph">
                 We’re your one-stop shop for party decor and rentals, bringing
                 the wow to every occasion. From birthdays and bridal showers to
                 corporate events and heartfelt farewells, we specialize in

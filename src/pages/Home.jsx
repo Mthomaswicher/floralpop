@@ -19,7 +19,7 @@ function Home() {
         <Row>
           <Services />
         </Row>
-        <Row>
+        <Row className='bottomContainer'>
           <Feed />
         </Row>
       </Container>
