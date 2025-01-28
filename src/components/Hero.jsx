@@ -16,14 +16,14 @@ const Hero = () => {
     <Row className="heroRow">
       <Col>
         <Row xs={1}>
-          <p className="heroHeader">Floral Pop Party Shop</p>
+          <h1 className="heroHeader">Floral Pop Party Shop</h1>
         </Row>
 
         <Row>
           <p className="subtext">Where the parties pop and the fun never stops</p>
         </Row>
         <Row>
-          <p>
+          <p className="subtextParagraph">
             We’re your one-stop shop for party decor and rentals, bringing the
             wow to every occasion. From birthdays and bridal showers to
             corporate events and heartfelt farewells, we specialize in creating

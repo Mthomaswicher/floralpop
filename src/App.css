@@ -125,7 +125,7 @@ body {
 }
 
 .header {
-  margin-bottom: 64px;
+  margin-bottom: 64px!important;
   text-align: center;
   width: fit-content !important;
 }
@@ -240,6 +240,17 @@ h3 {
 .heroHeader {
   font-size: 72px;
   line-height: 88px;
+}
+
+.subtext{
+  font-size: 24px;
+  color:#4E5963;
+}
+
+.subtextParagraph{
+  font-size: 20px;
+  color: #000000;
+  font-weight: 300;
 }
 
 /*Ticker*/
