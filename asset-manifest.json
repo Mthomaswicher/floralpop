@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/floralpop/static/css/main.3556cf72.css",
-    "main.js": "/floralpop/static/js/main.b6f0250e.js",
+    "main.js": "/floralpop/static/js/main.3196c89e.js",
     "static/media/flowerwall.jpg": "/floralpop/static/media/flowerwall.73aa760a0c6ae6561740.jpg",
     "static/media/jerod.jpg": "/floralpop/static/media/jerod.a4c3b1418b4ceef9bedc.jpg",
     "static/media/lulu.png": "/floralpop/static/media/lulu.571d44f938a7dc619b42.png",
@@ -14,10 +14,10 @@
     "static/media/floralpoplogo.png": "/floralpop/static/media/floralpoplogo.038c06d3d6b80473e9fc.png",
     "index.html": "/floralpop/index.html",
     "main.3556cf72.css.map": "/floralpop/static/css/main.3556cf72.css.map",
-    "main.b6f0250e.js.map": "/floralpop/static/js/main.b6f0250e.js.map"
+    "main.3196c89e.js.map": "/floralpop/static/js/main.3196c89e.js.map"
   },
   "entrypoints": [
     "static/css/main.3556cf72.css",
-    "static/js/main.b6f0250e.js"
+    "static/js/main.3196c89e.js"
   ]
 }
