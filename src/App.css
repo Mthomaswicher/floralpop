@@ -108,7 +108,7 @@
   font-style: italic;
 }
 
-h1{
+h1 {
   font-size: 40px;
 }
 
@@ -120,14 +120,15 @@ body {
   );
 }
 
-.bottomContainer{
+.bottomContainer {
   margin-bottom: 120px;
 }
 
 .header {
-  margin-bottom: 64px!important;
+  margin-bottom: 64px !important;
   text-align: center;
   width: fit-content !important;
+  font-weight: 500 !important;
 }
 
 .col-lg-8 {
@@ -165,8 +166,8 @@ body {
   margin-bottom: 8px !important;
 }
 
-ul{
-  padding: 0px!important;
+ul {
+  padding: 0px !important;
 }
 
 p {
@@ -203,15 +204,12 @@ p {
   --bs-bg-opacity: 0% !important;
   margin-bottom: 40px;
   box-shadow: 0px 1px 6px 2px rgba(37, 39, 91, 0.1);
-
 }
 
-.navLogo:hover{
+.navLogo:hover {
   animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 3s; /* don't forget to set a duration! */
 }
-
-
 
 .navbar-expand-sm .navbar-nav {
   margin-left: auto;
@@ -245,8 +243,8 @@ p {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.08) !important;
 }
 
-.btn-primary:hover{
-  background-color: #8A70ED!important;
+.btn-primary:hover {
+  background-color: #8a70ed !important;
 }
 
 .fullwidth {
@@ -269,22 +267,21 @@ p {
 }
 
 .heroHeader {
-  font-size: 72px;
+  font-weight: 500 !important;
   line-height: 88px;
 }
 
-.subtext{
+.subtext {
   font-size: 24px;
-  color:#4E5963;
-  font-weight: 400!important;
+  color: #4e5963;
+  font-weight: 400 !important;
 }
 
-
-.textDown{
-  margin-bottom: 16px!important;
+.textDown {
+  margin-bottom: 16px !important;
 }
 
-.subtextParagraph{
+.subtextParagraph {
   font-size: 18px;
   color: #000000;
   font-weight: 300;
@@ -319,8 +316,6 @@ p {
 .card-body {
   border-radius: 12px;
 }
-
-
 
 .card-title,
 .card-text {
@@ -359,8 +354,8 @@ p {
   }
 }
 
-a.nav-link:hover{
-  color:#ffa0dc!important;
+a.nav-link:hover {
+  color: #ffa0dc !important;
 }
 
 .email {
@@ -401,9 +396,9 @@ a.nav-link:hover{
   }
 }
 
-.copyright{
+.copyright {
   font-size: 16px;
-  font-family: "Poppins"sans-serif;
+  font-family: 'Poppins' sans-serif;
 }
 
 .root-container {
@@ -419,7 +414,6 @@ a.nav-link:hover{
   font-weight: 300;
 }
 .hero-btn {
-
 }
 
 .mb-3 {
@@ -458,7 +452,6 @@ a.nav-link:hover{
   margin-top: 24px !important;
   margin-bottom: 24px !important;
   text-align: center;
-  
 }
 
 .service-card-list {
@@ -490,11 +483,29 @@ a.nav-link:hover{
 }
 
 @media screen and (min-width: 765px) {
-.card{
-  margin-bottom: 128px!important;
-}
+  .card {
+    margin-bottom: 128px !important;
+  }
 }
 
-.aboutImage{
-max-width: 500px;
+.aboutImage {
+  max-width: 500px;
+}
+
+/* Mobile Media Queries */
+@media screen and (max-width: 576px) {
+  .rowPushDownLg {
+    text-align: center;
+  }
+
+  .companyImage {
+    width: auto;
+    height: 50px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .ticker {
+    align-items: center !important;
+  }
 }

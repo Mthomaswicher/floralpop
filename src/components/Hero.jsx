@@ -13,12 +13,12 @@ const Hero = () => {
   };
 
   return (
-    <Container fluid>
+    <Container>
       <Row className='rowPushDownLg'>
         <Col md={6} className="">
           <Row>
             <Col md={8}>
-              <h1 className="heroHeader">Floral Pop Party Shop</h1>
+              <h1 className="heroHeader display-1">Floral Pop Party Shop</h1>
             </Col>
           </Row>
           <Row>
