@@ -29,7 +29,7 @@ root.render(
     <Navigation navItems={navItems} />
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/floralpop" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/book-now" element={<BookNow />} />
         <Route path="/services" element={<OurServices />} />
