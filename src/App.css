@@ -369,6 +369,10 @@ a.nav-link:hover{
   text-decoration: none;
 }
 
+.email:hover{
+  color: #ffa0dc;
+}
+
 .centerfooter {
   display: flex;
   flex-direction: column;
@@ -387,7 +391,7 @@ a.nav-link:hover{
   position: absolute;
   z-index: -1;
   content: '';
-  background: #a591ef;
+  background: #ffa0dc;
   height: 16px;
   left: 0;
   bottom: 0px;
@@ -404,11 +408,13 @@ a.nav-link:hover{
 .copyright{
   font-size: 16px;
   font-family: "Poppins"sans-serif;
+  color: white;
 }
 
 .root-container {
   padding: 0 64px !important;
 }
+
 
 .hero-subheader {
   margin-bottom: 40px !important;
@@ -418,9 +424,7 @@ a.nav-link:hover{
   font-size: 24px;
   font-weight: 300;
 }
-.hero-btn {
 
-}
 
 .mb-3 {
   margin-bottom: 40px !important;
@@ -433,7 +437,7 @@ a.nav-link:hover{
 }
 .card {
   min-height: 300px;
-  margin: 0 20px 0 20px !important;
+  /* margin: 0 20px 0 20px !important; */
 }
 .card-image {
   object-fit: cover;
@@ -498,3 +502,47 @@ a.nav-link:hover{
 .aboutImage{
 max-width: 500px;
 }
+
+
+@media (max-width: 900px){
+  .root-container{
+    padding: 0px!important;
+  }
+
+  .row{
+    margin:auto!important;
+  }
+
+  .card{
+    margin-top: 128px!important;
+  }
+  
+
+  .feed-row{
+    margin-bottom: 40px;
+  }
+
+  h1{
+    font-size: 32px;
+  }
+
+  .hero-svg{
+    display: none!important;
+  }
+
+  .hero-btn {
+    margin-bottom: 64px;
+    }
+
+    .companies-row{
+      margin-bottom: 64px!important;
+    }
+}
+
+
+
+
+
+
+
+

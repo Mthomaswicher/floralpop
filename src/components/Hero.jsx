@@ -43,7 +43,7 @@ const Hero = () => {
           </Row>
         </Col>
         <Col md={6} className="position-relative hero-svg">
-          <Lottie options={defaultOptions} isClickToPauseDisabled={true} />
+          <Lottie className="lottie" options={defaultOptions} isClickToPauseDisabled={true} />
         </Col>
       </Row>
     </Container>
