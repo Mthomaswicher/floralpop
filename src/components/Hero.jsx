@@ -37,7 +37,7 @@ const Hero = () => {
                 us bring the party to you!
               </p>
               <div className="hero-btn">
-                <Button href="/book-now">Book Now</Button>
+                <Button target="_blank"href="https://www.honeybook.com/widget/floral_pop_co_203712/cf_id/61783908e47c1c07fd82b023">Book Now</Button>
               </div>
             </Col>
           </Row>

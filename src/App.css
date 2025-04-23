@@ -628,8 +628,29 @@ max-width: 500px;
     padding-right: 16px!important;
   }
 
+  .navbar-collapse{
+    padding: 16px;
+  }
+
+a.fullwidth{
+    margin-bottom: 40px!important;
+  }
+
+  .imageFill {
+    width: -webkit-fill-available;
+    height: auto;
+
+  }
+  
+
+  .heroHeader2{
+    font-size: 48px;
+  }
 
 
+.aboutustext{
+  margin-bottom: 128px;
+}
   
 
   

@@ -32,7 +32,9 @@ const Navigation = ({ navItems }) => {
           })}
          
           <div className="vr" />
-          <a
+          
+      <Button className="fullwidth" target="_blank"href="https://www.honeybook.com/widget/floral_pop_co_203712/cf_id/61783908e47c1c07fd82b023">Book Now</Button>
+      <a
           className="navLink"
             href="https://www.instagram.com/floralpopco/"
             target="_blank"
@@ -41,6 +43,7 @@ const Navigation = ({ navItems }) => {
             <img className="social" src={ig} alt="instagram" />
           </a>
         </Nav>
+
       </Navbar.Collapse>
       </Navbar.Offcanvas>
       

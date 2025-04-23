@@ -58,7 +58,7 @@ const ServiceHolder = () => {
                       <li key={serviceIdx}>{service}</li>
                     ))}
                   </ul>
-                  <Button className="fullwidth">View More</Button>
+                  <Button href='/services' className="fullwidth">View More</Button>
                 </Card.Body>
               </Card>
             </Col>

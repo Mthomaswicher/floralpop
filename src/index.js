@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
-import BookNow from './pages/BookNow';
 import OurServices from './pages/OurServices';
 import Navigation from './components/Navigation';
 import PageFooter from './components/PageFooter';
@@ -31,7 +30,6 @@ root.render(
       <Routes>
         <Route path="/floralpop" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/book-now" element={<BookNow />} />
         <Route path="/services" element={<OurServices />} />
       </Routes>
     </BrowserRouter>
