@@ -28,7 +28,7 @@ root.render(
     <Navigation navItems={navItems} />
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/floralpop" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<OurServices />} />
       </Routes>
