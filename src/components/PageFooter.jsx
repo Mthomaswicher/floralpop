@@ -9,7 +9,6 @@ const PageFooter = ({ navItems }) => {
       <Col lg={2}>
         <img width="64" height="64" src={floralpop} alt="floralpop" />
       </Col>
-      <Col sm={6}lg={2}>
         
           {/* <Nav defaultActiveKey="/">
             {navItems.map((nav, idx) => {
@@ -27,7 +26,6 @@ const PageFooter = ({ navItems }) => {
           >
             <img className="social" src={ig} alt="instagram" />
           </a> */}
-      </Col>
       <Col className="centerfooter" lg={8}>
         <Row>
           <span className="email">

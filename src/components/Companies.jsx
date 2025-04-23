@@ -10,9 +10,9 @@ import { Row } from 'react-bootstrap';
 const Companies = () => {
   return (
     <Row className="companies-row justify">
-      <h2 className="header-margin textmarker-effect header">
+      <h1 className="header-margin textmarker-effect header">
         We've partied with the best
-      </h2>
+      </h1>
       <HorizontalTicker className="ticker" duration={30000}>
         <img className="companyImage" src={f45} alt="f45" />
         <img className="companyImage" src={aerie} alt="aerie" />

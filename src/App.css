@@ -353,7 +353,7 @@ p {
 
 .footer {
   padding: 64px;
-  background-color: #a591ef;
+  background-color: #ffa0dc;
 
   a {
     color: #eee;
@@ -368,6 +368,7 @@ a.nav-link:hover{
   font-size: 24px;
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
+  color: black!important;
 }
 
 .email:hover{
@@ -400,9 +401,26 @@ a.nav-link:hover{
   opacity: 0.7;
 }
 
+.backtotop{
+  display: none!important;
+}
+
+.navbar-collapse{
+  background-color: #ffa0dc;
+}
+
+.nav-link{
+  font-size: 24px!important;
+  padding: 24px!important;
+}
+
+.navbar-nav .nav-link:hover{
+  color:white!important;
+}
+
 .email-text{
   font-size: 18px;
-  color: #ffa0dc;
+  color: #8A70ED;
 }
 
 @media (max-width: 768px) {
