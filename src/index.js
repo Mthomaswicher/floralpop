@@ -10,15 +10,15 @@ import PageFooter from './components/PageFooter';
 const navItems = [
   {
     label: 'About Us',
-    path: '/about-us',
+    path: '/floralpop/#about-us',
   },
   {
     label: 'Our Services',
-    path: '/services',
+    path: '/floralpop/#services',
   },
   {
     label: 'Contact Us',
-    path: '/contact',
+    path: '/floralpop/#contact',
   },
 ];
 
