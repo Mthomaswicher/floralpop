@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {  Routes, Route, HashRouter } from 'react-router';
+import {  Routes, Route, HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import OurServices from './pages/OurServices';
