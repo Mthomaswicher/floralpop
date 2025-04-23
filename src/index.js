@@ -10,15 +10,15 @@ import PageFooter from './components/PageFooter';
 const navItems = [
   {
     label: 'About Us',
-    path: '/#about-us',
+    path: '/about-us',
   },
   {
     label: 'Our Services',
-    path: '/#services',
+    path: '/services',
   },
   {
     label: 'Contact Us',
-    path: '/#contact',
+    path: '/contact',
   },
 ];
 
