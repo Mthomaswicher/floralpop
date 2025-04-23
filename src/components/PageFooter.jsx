@@ -8,9 +8,9 @@ const PageFooter = ({ navItems }) => {
       <Col lg={2}>
         <img width="64" height="64" src={floralpop} alt="floralpop" />
       </Col>
-      <Col lg={2}>
-        <Row className="rowPushDown">
-          <Nav defaultActiveKey="/" className="flex-column">
+      <Col sm={6}lg={2}>
+        
+          {/* <Nav defaultActiveKey="/">
             {navItems.map((nav, idx) => {
               return (
                 <Nav.Link href={nav.path} key={idx}>
@@ -18,23 +18,20 @@ const PageFooter = ({ navItems }) => {
                 </Nav.Link>
               );
             })}
-          </Nav>
-        </Row>
-        <Row>
-          <a
+          </Nav> */}
+          {/* <a
             href="https://www.instagram.com/floralpopco/"
             target="_blank"
             rel="noreferrer"
           >
             <img className="social" src={ig} alt="instagram" />
-          </a>
-        </Row>
+          </a> */}
       </Col>
       <Col className="centerfooter" lg={8}>
         <Row>
           <span className="email">
             <a className="email" href="mailto:floralpopco@gmail.com">
-              Email: floralpopco@gmail.com
+              Email: <span className='email-text'>floralpopco@gmail.com</span>
             </a>
           </span>
         </Row>

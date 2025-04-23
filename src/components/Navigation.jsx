@@ -7,7 +7,7 @@ import 'animate.css';
 
 const Navigation = ({ navItems }) => {
   return (
-    <Navbar bg="#FFFFFF" expand="sm" className="bg-body-tertiary">
+    <Navbar bg="#FFFFFF" expand={false} className="bg-body-tertiary">
       <NavbarBrand href="#home">
         <Nav.Link href="/floralpop">
           <img
@@ -20,6 +20,7 @@ const Navigation = ({ navItems }) => {
         </Nav.Link>
       </NavbarBrand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Offcanvas placement="end">
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
           {navItems.map((nav, idx) => {
@@ -29,7 +30,7 @@ const Navigation = ({ navItems }) => {
               </Nav.Link>
             );
           })}
-          <Button href="/book-now">Book now</Button>
+         
           <div className="vr" />
           <a
           className="navLink"
@@ -41,6 +42,9 @@ const Navigation = ({ navItems }) => {
           </a>
         </Nav>
       </Navbar.Collapse>
+      </Navbar.Offcanvas>
+      
+
     </Navbar>
   );
 };
