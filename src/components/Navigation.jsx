@@ -4,12 +4,13 @@ import { Navbar, Button } from 'react-bootstrap';
 import logo from '../assets/floralpoplogo.png';
 import ig from '../assets/ig.png';
 import 'animate.css';
+import { Link } from 'react-router';
 
 const Navigation = ({ navItems }) => {
   return (
     <Navbar bg="#FFFFFF" expand={false} className="bg-body-tertiary">
       <NavbarBrand href="#home">
-        <Nav.Link href="/floralpop">
+        <Link to="/floralpop">
           <img
             alt="logo"
             src={logo}
@@ -17,7 +18,7 @@ const Navigation = ({ navItems }) => {
             height="64"
             className="d-inline-block align-top navLogo"
           />
-        </Nav.Link>
+        </Link>
       </NavbarBrand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Offcanvas placement="end">
@@ -25,9 +26,9 @@ const Navigation = ({ navItems }) => {
         <Nav>
           {navItems.map((nav, idx) => {
             return (
-              <Nav.Link href={nav.path} key={idx}>
+              <Link to={nav.path} key={idx}>
                 {nav.label}
-              </Nav.Link>
+              </Link>
             );
           })}
          
