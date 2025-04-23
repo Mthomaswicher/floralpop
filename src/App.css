@@ -605,6 +605,11 @@ max-width: 500px;
     right: 16px;
   }
 
+  .navbar{
+    padding-left: 16px!important;
+    padding-right: 16px!important;
+  }
+
 
 
   
