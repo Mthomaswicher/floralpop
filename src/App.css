@@ -125,7 +125,7 @@ body {
 }
 
 .header {
-  margin-bottom: 64px!important;
+  margin-bottom: 40px!important;
   text-align: center;
   width: fit-content !important;
 }
@@ -572,6 +572,7 @@ max-width: 500px;
 
     .subtext{
       font-weight: 400!important;
+      font-size: 18px!important;
     }
 
     .subtextParagraph{

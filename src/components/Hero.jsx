@@ -23,7 +23,7 @@ const Hero = () => {
           </Row>
           <Row>
             <p className="h3 subtext textDown">
-              Where the parties pop and the fun never stops
+              Where the parties pop and the fun never stops!
             </p>
           </Row>
           <Row>
