@@ -9,7 +9,7 @@ const Navigation = ({ navItems }) => {
   return (
     <Navbar bg="#FFFFFF" expand="sm" className="bg-body-tertiary">
       <NavbarBrand href="#home">
-        <Nav.Link href="/">
+        <Nav.Link href="/floralpop">
           <img
             alt="logo"
             src={logo}

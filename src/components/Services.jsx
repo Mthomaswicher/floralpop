@@ -5,9 +5,9 @@ const Services = () => {
   return (
     <>
       <Row className="justify">
-        <p className="h2 textmarker-effect header header-margin">
+        <h1 className="textmarker-effect header header-margin">
           What we offer
-        </p>
+        </h1>
       </Row>
       <Row>
         <ServiceHolder />

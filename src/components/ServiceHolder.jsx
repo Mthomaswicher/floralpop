@@ -40,7 +40,7 @@ const ServiceHolder = () => {
         {cardData.map((card, idx) => {
           return (
             <Col key={idx} md={4} sm={12}>
-              <Card className="card">
+              <Card className="last card">
                 <Card.Img
                   className="card-image rounded-circle ratio ratio-1x1 overflow-hidden align-self-center"
                   variant="top"

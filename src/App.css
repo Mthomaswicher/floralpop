@@ -192,7 +192,7 @@ p {
 
 .h2 {
   font-family: 'Poppins', serif !important;
-  font-size: 40px !important;
+  font-size: 40px;
 }
 
 /*Top Navigation*/
@@ -277,6 +277,7 @@ p {
   font-size: 24px;
   color:#4E5963;
   font-weight: 400!important;
+  font-style: italic;
 }
 
 
@@ -448,7 +449,7 @@ a.nav-link:hover{
 }
 
 .service-card-title {
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   font-family: 'Poppins', serif !important;
   font-size: 32px !important;
   margin-top: 16px !important;
@@ -456,7 +457,7 @@ a.nav-link:hover{
 
 .service-card-subtitle {
   color: #ffa0dc !important;
-  font-weight: 500 !important;
+  font-weight: 300 !important;
   font-family: 'Poppins', serif !important;
   font-size: 24px !important;
   margin-top: 24px !important;
@@ -510,12 +511,13 @@ max-width: 500px;
   }
 
   .row{
-    margin:auto!important;
+    margin-left:auto!important;
+    margin-right: auto !important;
   }
 
-  .card{
+  /* .card{
     margin-top: 128px!important;
-  }
+  } */
   
 
   .feed-row{
@@ -523,7 +525,7 @@ max-width: 500px;
   }
 
   h1{
-    font-size: 32px;
+    font-size: 32px!important;
   }
 
   .hero-svg{
@@ -531,12 +533,61 @@ max-width: 500px;
   }
 
   .hero-btn {
-    margin-bottom: 64px;
+    margin-bottom: 128px;
     }
 
     .companies-row{
-      margin-bottom: 64px!important;
+      margin-bottom: 128px!important;
     }
+
+    .heroHeader {
+      font-size: 64px!important;
+      font-weight: 600;
+      line-height: 68px;
+    }
+
+    .subtext{
+      font-weight: 300!important;
+    }
+
+    .subtextParagraph{
+      font-size: 16px;
+      color: #000000;
+      font-weight: 300;
+      margin-bottom: 16px;
+    }
+
+    h2{
+
+      font-size: 32px!important;
+
+    }
+
+    .companyImage{
+      height: 75px!important;
+    }
+
+    .textmarker-effect{
+      width: 75%!important;
+    }
+
+.service-cards{
+  gap: 128px!important;
+}
+
+/* .last{
+    margin-bottom: -128px!important;
+  } */
+  .bottomContainer{
+    margin-top: -128px!important;
+  }
+
+  .rowPushDownLg{
+    margin-bottom: 0px!important;
+  }
+
+
+
 }
 
 

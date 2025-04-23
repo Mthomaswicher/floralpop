@@ -5,7 +5,7 @@ const Feed = () => {
     <>
       <div className="feed-row">
         <Row className="justify">
-          <h1 className="h2 textmarker-effect header">Connect with us!!</h1>
+          <h1 className="last-title textmarker-effect header">Connect with us!!</h1>
         </Row>
 
         <Row>
