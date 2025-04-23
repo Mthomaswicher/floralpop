@@ -27,11 +27,9 @@ root.render(
   <>
     <Navigation navItems={navItems} />
     <HashRouter>
-      <Routes>
         <Route path="/floralpop" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<OurServices />} />
-      </Routes>
     </HashRouter>
     <PageFooter navItems={navItems} />
   </>
