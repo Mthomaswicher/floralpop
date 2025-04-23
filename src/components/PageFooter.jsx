@@ -1,15 +1,13 @@
 import floralpop from '../assets/floralpoplogo.png';
-import { Row, Col, Nav } from 'react-bootstrap';
-import ig from '../assets/ig.png';
+import { Row, Col } from 'react-bootstrap';
 import ScrollButton from './ScrollButton';
 
 const PageFooter = ({ navItems }) => {
   return (
     <Row className="footer">
       <Col lg={2}>
-        <img width="64" height="64" src={floralpop} alt="floralpop" />
+        <img width="100" height="100" src={floralpop} alt="floralpop" />
       </Col>
-        
           {/* <Nav defaultActiveKey="/">
             {navItems.map((nav, idx) => {
               return (
@@ -30,7 +28,7 @@ const PageFooter = ({ navItems }) => {
         <Row>
           <span className="email">
             <a className="email" href="mailto:floralpopco@gmail.com">
-              Email: <span className='email-text'>floralpopco@gmail.com</span>
+              Email us at 👇🏾 <br></br> <span className='email-text'>floralpopco@gmail.com</span>
             </a>
           </span>
         </Row>
