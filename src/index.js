@@ -27,11 +27,9 @@ root.render(
   <>
     <Navigation navItems={navItems} />
     <Router basename={"/"}>
-      <Routes>
       <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<OurServices />} />
-      </Routes>
     </Router>
     <PageFooter navItems={navItems} />
   </>
