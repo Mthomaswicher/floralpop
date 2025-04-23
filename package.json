@@ -2,7 +2,7 @@
   "name": "floralpop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mthomaswicher.github.io/floralpop",
+  "homepage": "https://mthomaswicher.github.io/floralpop/",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
