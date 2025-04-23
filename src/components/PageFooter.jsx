@@ -1,6 +1,7 @@
 import floralpop from '../assets/floralpoplogo.png';
 import { Row, Col, Nav } from 'react-bootstrap';
 import ig from '../assets/ig.png';
+import ScrollButton from './ScrollButton';
 
 const PageFooter = ({ navItems }) => {
   return (
@@ -39,7 +40,9 @@ const PageFooter = ({ navItems }) => {
         <Row>
           <span className="copyright">© 2024 Floral Pop Co. </span>
         </Row>
+       
       </Col>
+      <ScrollButton/>
     </Row>
   );
 };

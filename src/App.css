@@ -596,6 +596,19 @@ max-width: 500px;
     gap: 40px;
   }
 
+  .backtotop{
+    border-radius: 50%!important;
+    background: #ffa0dc!important;
+    width: 64px!important;
+    height: 64px!important;
+    position: absolute;
+    right: 16px;
+  }
+
+
+
+  
+
   
 
 
