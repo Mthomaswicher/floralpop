@@ -4,7 +4,6 @@ import { Navbar, Button } from 'react-bootstrap';
 import logo from '../assets/floralpoplogo.png';
 import ig from '../assets/ig.png';
 import 'animate.css';
-import { Link } from 'react-router';
 
 const Navigation = ({ navItems }) => {
   return (
@@ -26,7 +25,7 @@ const Navigation = ({ navItems }) => {
         <Nav>
           {navItems.map((nav, idx) => {
             return (
-              <Nav.Link as = {Link} to={nav.path} key={idx}>
+              <Nav.Link href={nav.path} key={idx}>
                 {nav.label}
               </Nav.Link>
             );
