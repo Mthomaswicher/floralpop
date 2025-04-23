@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import OurServices from './pages/OurServices';
@@ -26,13 +26,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <Navigation navItems={navItems} />
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/floralpop" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<OurServices />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     <PageFooter navItems={navItems} />
   </>
 );
