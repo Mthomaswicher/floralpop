@@ -26,7 +26,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <Navigation navItems={navItems} />
-    <HashRouter basename={"/floralpop"}>
+    <HashRouter basename={"/"}>
       <Routes>
       <Route exact path="/" element={<Home />} />
         <Route exact path="/about-us" element={<AboutUs />} />
