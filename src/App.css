@@ -122,6 +122,7 @@ body {
 
 .bottomContainer{
   margin-bottom: 120px;
+  margin-top: -128px;
 }
 
 .header {

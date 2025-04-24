@@ -7,7 +7,7 @@ const Offerings = () => {
     {
       title: 'Rentals',
       price: 'Starting at $625',
-      description: 'Choose from a variety of rentals to complete your party decor.',
+      description: 'Choose from a variety of our available rentals to complete your party decor.',
       services: ['Flower Bar', 'Dessert Cart', 'Flower Wall Backdrops'],
       image: { flowerwall },
     },
