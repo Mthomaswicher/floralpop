@@ -739,6 +739,10 @@ a.fullwidth{
   strong{
     color: #ffa0dc;
   }
+
+  .collapse:not(.show){
+    display: block!important;
+  }
   
 
 

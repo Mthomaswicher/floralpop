@@ -4,10 +4,15 @@ import logo from '../assets/floralpoplogo.png';
 import ig from '../assets/ig.png';
 import 'animate.css';
 import { Link } from 'react-router-dom'; // ✅ Correct import
+import { useState } from 'react';
 
 const Navigation = ({ navItems }) => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
-    <Navbar bg="#FFFFFF" expand={false} className="bg-body-tertiary">
+    <Navbar expand={false} className="bg-body-tertiary">
       <Nav.Link as={Link} to="/">
         <img
           alt="logo"
@@ -17,12 +22,14 @@ const Navigation = ({ navItems }) => {
           className="d-inline-block align-top navLogo"
         />
       </Nav.Link>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Offcanvas placement="end">
+      <Navbar.Toggle onClick={handleShow} aria-controls="basic-navbar-nav" />
+      <Navbar.Offcanvas show={show} onHide={handleClose}  placement="end">
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
             {navItems.map((nav, idx) => (
-              <Nav.Link as={Link} to={nav.path} key={idx}>
+              <Nav.Link onClick={() => {
+                setShow(false);
+              }} as={Link} to={nav.path} key={idx}>
                 {nav.label}
               </Nav.Link>
             ))}
