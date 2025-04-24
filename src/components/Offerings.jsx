@@ -37,11 +37,11 @@ const Offerings = () => {
         <div className="jerodimage"></div>
       </Col> */}
       <Row className="givespace">
-        <Col xs={12} lg={6}>
+        <Col xs={12} lg={4}>
         <h1 className='center'>Party Packages</h1>
 
         </Col>
-        <Col xs={12} lg={6}>
+        <Col xs={12} lg={8}>
         <p>Our <strong>PARTY PACKAGES</strong> are designed to make decor for your event easy! We offer balloon garlands, backdrops, marquee numbers, crazy towers and more! Check out our most popular options below. You even get to keep the backdrops in the first 3 packages after your event so can reuse later!</p>
         <Button target="_blank"href="https://www.honeybook.com/widget/floral_pop_co_203712/cf_id/61783908e47c1c07fd82b023">Book Now</Button>
         

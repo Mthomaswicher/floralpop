@@ -40,6 +40,7 @@ root.render(
     <Route path="/services" element={<Offerings />} />
   </Routes>
   <PageFooter navItems={navItems} />
+
 </HashRouter>
   </>
 );

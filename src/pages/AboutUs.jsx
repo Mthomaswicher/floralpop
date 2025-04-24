@@ -6,13 +6,10 @@ import aboutus from "../assets/aboutus.png";
 function AboutUs() {
   return (
     
-    <Container>
-    <Row>
+    <Row className='givespace2'>
         <Col xs={12} lg={6}>
         <img className="aboutImage imageFill" src={aboutus}></img>
         </Col>
-        </Row>
-        <Row>
         <Col className='flex' xs={12} lg={6}>
         <div className='aboutUs'>
         <h1 className='heroHeader2'>
@@ -23,7 +20,6 @@ function AboutUs() {
        
         </Col>
       </Row>
-    </Container>
      
     
   );
