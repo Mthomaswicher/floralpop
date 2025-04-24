@@ -2,7 +2,7 @@
   "name": "floralpop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mthomaswicher.github.io/floralpop/",
+  "homepage": "https://mthomaswicher.github.io/floralpop",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
@@ -21,6 +21,7 @@
     "react-infinite-ticker": "^2.2.0",
     "react-lottie": "^1.2.4",
     "react-router": "^7.1.1",
+    "react-router-dom": "^7.5.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

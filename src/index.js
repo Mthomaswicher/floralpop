@@ -25,15 +25,16 @@ const navItems = [
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <Navigation navItems={navItems} />
-    <HashRouter>
-      <Routes>
-      <Route exact path="/" element={<Home />} />
-        <Route exact path="/about-us" element={<AboutUs />} />
-        <Route exact path="/services" element={<OurServices />} />
-      </Routes>
-    </HashRouter>
-    <PageFooter navItems={navItems} />
+   
+   <HashRouter>
+  <Navigation navItems={navItems} />
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/about-us" element={<AboutUs />} />
+    <Route path="/services" element={<OurServices />} />
+  </Routes>
+  <PageFooter navItems={navItems} />
+</HashRouter>
   </>
 );
 
