@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/floralpop/static/css/main.c7fa6fd4.css",
-    "main.js": "/floralpop/static/js/main.25494640.js",
+    "main.js": "/floralpop/static/js/main.f40daa23.js",
     "static/media/aboutus.png": "/floralpop/static/media/aboutus.a2e53e8f4f88ba601c42.png",
     "static/media/porsche.png": "/floralpop/static/media/porsche.dda0fbdae4feeb2b7839.png",
     "static/media/flowerwall.jpg": "/floralpop/static/media/flowerwall.73aa760a0c6ae6561740.jpg",
@@ -16,10 +16,10 @@
     "static/media/floralpoplogo.png": "/floralpop/static/media/floralpoplogo.038c06d3d6b80473e9fc.png",
     "index.html": "/floralpop/index.html",
     "main.c7fa6fd4.css.map": "/floralpop/static/css/main.c7fa6fd4.css.map",
-    "main.25494640.js.map": "/floralpop/static/js/main.25494640.js.map"
+    "main.f40daa23.js.map": "/floralpop/static/js/main.f40daa23.js.map"
   },
   "entrypoints": [
     "static/css/main.c7fa6fd4.css",
-    "static/js/main.25494640.js"
+    "static/js/main.f40daa23.js"
   ]
 }
