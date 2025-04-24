@@ -8,10 +8,12 @@ function AboutUs() {
     
     <Container>
     <Row>
-        <Col sm={4} lg={6}>
+        <Col xs={12} lg={6}>
         <img className="aboutImage imageFill" src={aboutus}></img>
         </Col>
-        <Col sm={8} lg={6}>
+        </Row>
+        <Row>
+        <Col className='flex' xs={12} lg={6}>
         <div className='aboutUs'>
         <h1 className='heroHeader2'>
         About Floral Pop

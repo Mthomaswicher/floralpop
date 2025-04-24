@@ -155,6 +155,12 @@ body {
   margin-bottom: 40px !important;
 }
 
+.pop{
+  color: #ffa0dc;
+  font-weight: 600
+  ;
+}
+
 .justify {
   justify-content: center !important;
 }
@@ -276,7 +282,7 @@ p {
 .subtext{
   font-size: 24px;
   color:#4E5963;
-  font-weight: 400!important;
+  font-weight: 500!important;
   font-style: italic;
 }
 
@@ -417,6 +423,11 @@ a.nav-link:hover{
   padding: 24px!important;
 }
 
+.description{
+  text-align: center;
+  font-size: 18px;
+}
+
 .navbar-nav .nav-link:hover{
   color:white!important;
 }
@@ -475,6 +486,10 @@ a.nav-link:hover{
   margin-top: -64px;
 }
 
+li::marker{
+  color: #ffa0dc;
+}
+
 .service-card-title {
   font-weight: 600 !important;
   font-family: 'Poppins', serif !important;
@@ -484,12 +499,13 @@ a.nav-link:hover{
 
 .service-card-subtitle {
   color: #ffa0dc !important;
-  font-weight: 400 !important;
+  font-weight: 500 !important;
   font-family: 'Poppins', serif !important;
   font-size: 24px !important;
   margin-top: 24px !important;
   margin-bottom: 24px !important;
   text-align: center;
+  font-style: italic;
   
 }
 
@@ -574,7 +590,7 @@ max-width: 500px;
     }
 
     .subtext{
-      font-weight: 400!important;
+      /* font-weight: 400!important; */
       font-size: 18px!important;
     }
 
@@ -595,6 +611,8 @@ max-width: 500px;
 
     .companyImage{
       height: 75px!important;
+      margin-left: 32px;
+      margin-right: 32px;
     }
 
     .textmarker-effect{
@@ -603,6 +621,7 @@ max-width: 500px;
 
 .service-cards{
   gap: 64px!important;
+  padding: 0px!important;
 }
 
 /* .last{
@@ -680,6 +699,49 @@ a.fullwidth{
 .vr{
   display: none!important;
 }
+
+
+.flex{
+  display: flex;
+  align-items: flex-start;
+}
+
+.aboutImage{
+ width: 100%;
+ margin-bottom: 40px;
+  }
+
+  .subtextParagraph{
+    font-family: 'Poppins', serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5f6870;
+    font-weight: 400;
+  }
+
+  li{
+    font-size: 18px;
+  }
+
+  .align-items-center{
+    margin-top: 64px!important;
+    gap: 128px!important;
+  }
+
+  .givespace{
+    padding: 16px;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  strong{
+    color: #ffa0dc;
+  }
+  
+
+
   
 
   

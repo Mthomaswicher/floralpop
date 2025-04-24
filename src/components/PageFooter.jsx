@@ -1,12 +1,15 @@
 import floralpop from '../assets/floralpoplogo.png';
 import { Row, Col } from 'react-bootstrap';
 import ScrollButton from './ScrollButton';
+import { Link } from 'react-router-dom';
 
 const PageFooter = ({ navItems }) => {
   return (
     <Row className="footer">
       <Col lg={2}>
+      <Link to = "/">
         <img width="100" height="100" src={floralpop} alt="floralpop" />
+        </Link>
       </Col>
           {/* <Nav defaultActiveKey="/">
             {navItems.map((nav, idx) => {

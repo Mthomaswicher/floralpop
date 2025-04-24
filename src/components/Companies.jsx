@@ -5,6 +5,7 @@ import lulu from '../assets/lulu.png';
 import nike from '../assets/nike.png';
 import kendra from '../assets/kendra.png';
 import kors from '../assets/kors.png';
+import porsche from "../assets/porsche.png";
 import { Row } from 'react-bootstrap';
 
 const Companies = () => {
@@ -20,6 +21,7 @@ const Companies = () => {
         <img className="companyImage" src={nike} alt="nike" />
         <img className="companyImage" src={kendra} alt="kendra" />
         <img className="companyImage" src={kors} alt="kors" />
+        <img className='companyImage' src={porsche} alt="porsche"/>
       </HorizontalTicker>
     </Row>
   );

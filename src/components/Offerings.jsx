@@ -2,7 +2,7 @@ import { Row, Card, Col, Button } from 'react-bootstrap';
 
 import flowerwall from '../assets/flowerwall.jpg';
 
-const ServiceHolder = () => {
+const Offerings = () => {
   const cardData = [
     {
       title: 'Rentals',
@@ -33,9 +33,14 @@ const ServiceHolder = () => {
 
   return (
     <>
-      <Col lg={12} className="service-image-row">
+      {/* <Col lg={12} className="service-image-row">
         <div className="jerodimage"></div>
-      </Col>
+      </Col> */}
+      <Row className="givespace">
+        <h1 className='center'>Party Packages</h1>
+        <p>Our <strong>PARTY PACKAGES</strong> are designed to make decor for your event easy! We offer balloon garlands, backdrops, marquee numbers, crazy towers and more! Check out our most popular options below. You even get to keep the backdrops in the first 3 packages after your event so can reuse later!</p>
+        <Button target="_blank"href="https://www.honeybook.com/widget/floral_pop_co_203712/cf_id/61783908e47c1c07fd82b023" className="fullwidth">Book Now</Button>
+      </Row>
       <Row className="service-cards align-items-center">
         {cardData.map((card, idx) => {
           return (
@@ -59,7 +64,7 @@ const ServiceHolder = () => {
                       <li key={serviceIdx}>{service}</li>
                     ))}
                   </ul>
-                  <Button href='/services' className="fullwidth">View More</Button>
+                  <Button target="_blank"href="https://www.honeybook.com/widget/floral_pop_co_203712/cf_id/61783908e47c1c07fd82b023" className="fullwidth">Book Now</Button>
                 </Card.Body>
               </Card>
             </Col>
@@ -71,4 +76,4 @@ const ServiceHolder = () => {
   );
 };
 
-export default ServiceHolder;
+export default Offerings;

@@ -6,6 +6,7 @@ import AboutUs from './pages/AboutUs';
 import OurServices from './pages/OurServices';
 import Navigation from './components/Navigation';
 import PageFooter from './components/PageFooter';
+import Offerings from './components/Offerings';
 
 const navItems = [
   {
@@ -31,7 +32,7 @@ root.render(
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/about-us" element={<AboutUs />} />
-    <Route path="/services" element={<OurServices />} />
+    <Route path="/services" element={<Offerings />} />
   </Routes>
   <PageFooter navItems={navItems} />
 </HashRouter>

@@ -1,11 +1,11 @@
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ServiceHolder from '../components/ServiceHolder';
+import Offerings from '../components/Offerings';
 
 function OurServices() {
   return (
     <>
-      <ServiceHolder />
+      <Offerings/>
     </>
   );
 }
