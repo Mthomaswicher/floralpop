@@ -15,15 +15,15 @@ const navItems = [
   },
   
   {
-    label: 'About Us',
+    label: 'About',
     path: '/about-us',
   },
   {
-    label: 'Our Services',
+    label: 'Services',
     path: '/services',
   },
   {
-    label: 'Contact Us',
+    label: 'Contact',
     path: '/contact',
   },
 ];

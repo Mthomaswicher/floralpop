@@ -12,7 +12,7 @@ const Navigation = ({ navItems }) => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <Navbar expand={false} className="bg-body-tertiary">
+    <Navbar expand={"lg"} className="bg-body-tertiary">
       <Nav.Link as={Link} to="/">
         <img
           alt="logo"

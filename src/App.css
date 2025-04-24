@@ -112,6 +112,11 @@ h1{
   font-size: 40px;
 }
 
+.nav-link{
+  font-size: 18px!important;
+  width: --webkit-fill-available!important;
+}
+
 body {
   background: linear-gradient(
     90deg,
@@ -139,6 +144,8 @@ body {
 .centerText {
   text-align: center;
 }
+
+
 
 .rowPushDownSm {
   margin-bottom: 64px !important;
@@ -222,16 +229,20 @@ p {
   animation-duration: 3s; /* don't forget to set a duration! */
 }
 
+.navbar-nav {
+  align-items: center;
+  gap: 40px;
+
+}
+
+
 
 
 .navbar-expand-sm .navbar-nav {
   margin-left: auto;
 }
 
-.navbar-nav {
-  gap: 16px;
-  align-items: center;
-}
+
 
 .nav-link {
   font-family: 'Poppins', serif;
@@ -316,6 +327,13 @@ body{
   color: #000000;
   font-weight: 300;
   margin-bottom: 40px;
+}
+
+.offcanvas{
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 64px;
 }
 
 /*Ticker*/
@@ -451,7 +469,8 @@ a.nav-link:hover{
 }
 
 .navbar-collapse{
-  background-color: #FFD9F1;
+  background:none!important;
+  justify-content: end!important;
 }
 
 .nav-link{
@@ -686,6 +705,10 @@ max-width: 500px;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.08) !important;
   }
 
+  .nav-link{
+    font-size: 24px!important;
+  }
+
   .navbar{
     padding-left: 16px!important;
     padding-right: 16px!important;
@@ -788,9 +811,16 @@ a.fullwidth{
   display: none!important;
 }
 
-  
+.navbar-collapse{
+  background-color: #FFD9F1!important;
+}
 
   
+
+.navbar-nav {
+  gap: 16px;
+  align-items: center;
+}
 
 
 
