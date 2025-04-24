@@ -122,7 +122,7 @@ body {
 
 .bottomContainer{
   margin-bottom: 120px;
-  margin-top: -128px;
+  margin-top: -128px!important;
 }
 
 .header {
@@ -331,6 +331,10 @@ p {
   border-radius: 12px;
 }
 
+.center{
+  margin-bottom: 40px;
+}
+
 
 
 .card-title,
@@ -340,6 +344,13 @@ p {
 
 .serviceHero {
   background-image: url(./assets/jerod.jpg);
+}
+
+.givespace{
+  padding: 64px!important;
+  margin-bottom: 128px;
+  background-color: #FFA0DC;
+  text-align: center;
 }
 
 .jerodimage {
@@ -730,7 +741,8 @@ a.fullwidth{
   }
 
   .givespace{
-    padding: 16px;
+    padding: 16px!important;
+    margin-bottom: 0px!important;
   }
 
   .center{

@@ -7,7 +7,7 @@ const Offerings = () => {
     {
       title: 'Rentals',
       price: 'Starting at $625',
-      description: 'Choose from a variety of our available rentals to complete your party decor.',
+      description: 'Choose from our available rentals to complete your party decor.',
       services: ['Flower Bar', 'Dessert Cart', 'Flower Wall Backdrops'],
       image: { flowerwall },
     },
@@ -21,7 +21,7 @@ const Offerings = () => {
     {
       title: 'Delivery',
       price: 'Starting at $75',
-      description: 'We offer delivery and provide a selection of flowers for all occasions.',
+      description: 'We provide a wide-selection of flowers for all occasions.',
       services: [
         'Rose Bouquets',
         'Sympathy Arrangements',
@@ -37,9 +37,16 @@ const Offerings = () => {
         <div className="jerodimage"></div>
       </Col> */}
       <Row className="givespace">
+        <Col lg={6}>
         <h1 className='center'>Party Packages</h1>
+        <Button target="_blank"href="https://www.honeybook.com/widget/floral_pop_co_203712/cf_id/61783908e47c1c07fd82b023">Book Now</Button>
+
+        </Col>
+        <Col lg={6}>
         <p>Our <strong>PARTY PACKAGES</strong> are designed to make decor for your event easy! We offer balloon garlands, backdrops, marquee numbers, crazy towers and more! Check out our most popular options below. You even get to keep the backdrops in the first 3 packages after your event so can reuse later!</p>
-        <Button target="_blank"href="https://www.honeybook.com/widget/floral_pop_co_203712/cf_id/61783908e47c1c07fd82b023" className="fullwidth">Book Now</Button>
+        
+        </Col>
+        
       </Row>
       <Row className="service-cards align-items-center">
         {cardData.map((card, idx) => {
