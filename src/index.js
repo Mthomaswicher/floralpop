@@ -10,6 +10,11 @@ import Offerings from './components/Offerings';
 
 const navItems = [
   {
+    label: 'Home',
+    path: "/"
+  },
+  
+  {
     label: 'About Us',
     path: '/about-us',
   },
