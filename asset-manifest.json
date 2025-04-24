@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/floralpop/static/css/main.424e197d.css",
-    "main.js": "/floralpop/static/js/main.19aabd2b.js",
+    "main.css": "/floralpop/static/css/main.8f904f9a.css",
+    "main.js": "/floralpop/static/js/main.513a01ff.js",
     "static/media/aboutus.png": "/floralpop/static/media/aboutus.a2e53e8f4f88ba601c42.png",
+    "static/media/newcart.png": "/floralpop/static/media/newcart.dcf46c337cbaf7738a5d.png",
     "static/media/porsche.png": "/floralpop/static/media/porsche.dda0fbdae4feeb2b7839.png",
     "static/media/flowerwall.jpg": "/floralpop/static/media/flowerwall.73aa760a0c6ae6561740.jpg",
     "static/media/jerod.jpg": "/floralpop/static/media/jerod.a4c3b1418b4ceef9bedc.jpg",
@@ -15,11 +16,11 @@
     "static/media/kors.png": "/floralpop/static/media/kors.7e006a8f6c482359230e.png",
     "static/media/floralpoplogo.png": "/floralpop/static/media/floralpoplogo.038c06d3d6b80473e9fc.png",
     "index.html": "/floralpop/index.html",
-    "main.424e197d.css.map": "/floralpop/static/css/main.424e197d.css.map",
-    "main.19aabd2b.js.map": "/floralpop/static/js/main.19aabd2b.js.map"
+    "main.8f904f9a.css.map": "/floralpop/static/css/main.8f904f9a.css.map",
+    "main.513a01ff.js.map": "/floralpop/static/js/main.513a01ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.424e197d.css",
-    "static/js/main.19aabd2b.js"
+    "static/css/main.8f904f9a.css",
+    "static/js/main.513a01ff.js"
   ]
 }
