@@ -1,4 +1,5 @@
 import { Row, Card, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import flowerwall from '../assets/flowerwall.jpg';
 
@@ -59,7 +60,7 @@ const ServiceHolder = () => {
                       <li key={serviceIdx}>{service}</li>
                     ))}
                   </ul>
-                  <Button href='/services' className="fullwidth">View More</Button>
+                <Link to ='/services'>  <Button className="fullwidth">View More</Button></Link>
                 </Card.Body>
               </Card>
             </Col>
